@@ -76,10 +76,12 @@ body {
 
 .circle.active {
   border-color: var(--line-border-fill);
-  background-color: #f1f1f1;
+  background-color: #e7f7fa;
   animation-name: pop;
   animation-timing-function: ease-in-out;
   animation-duration: 0.5s;
+  font-size: 130%;
+  font-weight: 1000;
 }
 
 .circle:not(.active) {
